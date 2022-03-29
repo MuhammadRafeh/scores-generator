@@ -188,6 +188,6 @@ df3 = pd.concat([df,df_stage1], axis=1)
 final_df = pd.concat([df3,df_stage2], axis=1)
 print(final_df)
 
-user_input = input("If you want this dataframe into csv file then write 'yes' other wise press any key to continue")
+user_input = input("If you want this dataframe into csv file then write 'yes' other wise press any key to continue: ")
 if user_input=="yes":
     final_df.to_csv('scores.csv', index=False)
