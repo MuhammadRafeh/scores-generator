@@ -191,36 +191,3 @@ print(final_df)
 user_input = input("If you want this dataframe into csv file then write 'yes' other wise press any key to continue")
 if user_input=="yes":
     final_df.to_csv('scores.csv', index=False)
-
-
-
-
-
-
-
-    
-                
-    
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
